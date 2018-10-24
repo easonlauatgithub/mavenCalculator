@@ -6,9 +6,9 @@ public class App {
     }
 	int ans = 0;
 	public int funcAdd(int a, int b){
-		System.out.println("funcAdd before a:"+a+", b:"+b+", ans1:"+ans);
+		System.out.println("funcAdd Before a:"+a+", b:"+b+", ans1:"+ans);
 		ans=a+b;
-		System.out.println("funcAdd after a:"+a+", b:"+b+", ans1:"+ans);
+		System.out.println("funcAdd After a:"+a+", b:"+b+", ans1:"+ans);
 		return ans;
 	}
 }
