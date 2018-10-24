@@ -22,4 +22,10 @@ public class AppTest{
     	System.out.println("----------------------- test2 -----------------------");
         assertTrue( app.funcAdd(1234, 1)==1235 );
     }
+	@Test
+	public void test3(){
+    	System.out.println("----------------------- test3 -----------------------");
+        assertTrue( app.funcAdd(1234, 4321)==5555 );
+    }
+
 }
