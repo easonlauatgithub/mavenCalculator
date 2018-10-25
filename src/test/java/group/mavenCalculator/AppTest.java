@@ -14,17 +14,17 @@ public class AppTest{
 	}
 	@Test
     public void test1(){
-    	System.out.println("----------------------- test1 -----------------------");
+    	System.out.println("----------------------- quick test -----------------------");
         assertTrue( app.funcAdd(1, 1)==2 );
     }
 	@Test
 	public void test2(){
-    	System.out.println("----------------------- test2 -----------------------");
+    	System.out.println("----------------------- regression test -----------------------");
         assertTrue( app.funcAdd(1234, 1)==1235 );
     }
 	@Test
 	public void test3(){
-    	System.out.println("----------------------- test3 -----------------------");
+    	System.out.println("----------------------- smoke test -----------------------");
         assertTrue( app.funcAdd(1234, 4321)==5555 );
     }
 
