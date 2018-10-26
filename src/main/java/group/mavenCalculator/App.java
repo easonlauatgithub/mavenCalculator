@@ -11,4 +11,11 @@ public class App {
 		System.out.println("funcAdd After a:"+a+", b:"+b+", ans1:"+ans);
 		return ans;
 	}
+	public int funcMinus(int a, int b){
+		System.out.println("funcAdd Before a:"+a+", b:"+b+", ans1:"+ans);
+		ans=a-b;
+		System.out.println("funcAdd After a:"+a+", b:"+b+", ans1:"+ans);
+		return ans;
+	}
+
 }
